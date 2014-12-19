@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/winter"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_style_first"
+            android:onClick="onClick"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:text="Phone"
+             />
+			
+        <Button
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_style_second"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" 
+        	android:text="Locker" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="3"
+        android:background="@drawable/button_style_third"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" 
+        android:text="Time"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_style_fourth"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" 
+        	android:text="Message" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_style_fivth"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" 
+        	android:text="Camera" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_style_sixth"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" 
+            android:text="IE Explore" />
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/button_style_seventh"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" 
+        	android:text="Music" />
+    </LinearLayout>
+
+</LinearLayout>
